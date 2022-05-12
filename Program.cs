@@ -13,19 +13,19 @@ namespace DIO.rpg.Entities
             Console.WriteLine("Boas-vindas!\n");
             Console.WriteLine("--------Personagens--------");
 
-            Guerreiro Gus = new Guerreiro("Gus", 17, 23, 15);
-            Arqueiro Lamps = new Arqueiro("Lamps", 19, 16, 21);
-            Mago JoJo = new Mago("JoJo", 15, 14, 25);
+            Guerreiro Gus = new Guerreiro("Gio", 17, 23, 15);
+            Arqueiro Lamps = new Arqueiro("Lau", 19, 16, 21);
+            Mago JoJo = new Mago("Jon", 15, 14, 25);
 
-            Console.WriteLine(Gus.ToString());
-            Console.WriteLine(Lamps.ToString());
-            Console.WriteLine(JoJo.ToString());
+            Console.WriteLine(Gio.ToString());
+            Console.WriteLine(Lau.ToString());
+            Console.WriteLine(Jon.ToString());
 
             Console.WriteLine("");
 
-            Console.WriteLine(Gus.Atacar(3));
-            Console.WriteLine(Lamps.Atacar());
-            Console.WriteLine(JoJo.Atacar());
+            Console.WriteLine(Gio.Atacar(3));
+            Console.WriteLine(Lau.Atacar());
+            Console.WriteLine(Jon.Atacar());
 
             Console.ReadKey();
         }
